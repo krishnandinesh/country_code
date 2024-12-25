@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <h2>Countries and their Codes</h2>
+
+        <div class="wrapper_dropdown" id="wrapper_dropdown">
+            <span class="globe"><img src="./images/globe-icon.svg" alt=""></span>
+            <div class="dropdown">
+                <p id="location">--Select--</p>
+                <span class="arrow" id="arrow"></span>
+            </div>
+            <div>
+                <ul class="list" id="list"></ul>
+            </div>
+        </div>
+
+        <p class="error hide" id="error">You have changed from your current location</p>
+        
+        <p class="code"><strong>Country Code:</strong> <span id="count"></span></p>
+
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
